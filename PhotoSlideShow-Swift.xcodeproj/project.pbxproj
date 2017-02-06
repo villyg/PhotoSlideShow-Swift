@@ -17,19 +17,7 @@
 		9596B8DB1AE712830035BDDA /* CuriousFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9596B8D81AE712830035BDDA /* CuriousFrog.jpg */; };
 		9596B8DC1AE712830035BDDA /* LeggyFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9596B8D91AE712830035BDDA /* LeggyFrog.jpg */; };
 		9596B8DD1AE712830035BDDA /* PeeringFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9596B8DA1AE712830035BDDA /* PeeringFrog.jpg */; };
-		9596B8E71AE717BC0035BDDA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9596B8E51AE717BC0035BDDA /* Info.plist */; };
-		9596B8E81AE717BC0035BDDA /* PhotoSlideShow_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596B8E61AE717BC0035BDDA /* PhotoSlideShow_SwiftTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9596B8C21AE70FBC0035BDDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9596B8A41AE70FBB0035BDDA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9596B8AB1AE70FBC0035BDDA;
-			remoteInfo = "PhotoSlideShow-Swift";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9596B8AC1AE70FBC0035BDDA /* PhotoSlideShow-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoSlideShow-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,26 +26,16 @@
 		9596B8B61AE70FBC0035BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9596B8B81AE70FBC0035BDDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9596B8BB1AE70FBC0035BDDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9596B8C11AE70FBC0035BDDA /* PhotoSlideShow-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhotoSlideShow-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9596B8D11AE70FE00035BDDA /* SlideShowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowController.swift; sourceTree = "<group>"; };
 		9596B8D31AE7101C0035BDDA /* SlideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideController.swift; sourceTree = "<group>"; };
 		9596B8D51AE711D80035BDDA /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		9596B8D81AE712830035BDDA /* CuriousFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CuriousFrog.jpg; sourceTree = "<group>"; };
 		9596B8D91AE712830035BDDA /* LeggyFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeggyFrog.jpg; sourceTree = "<group>"; };
 		9596B8DA1AE712830035BDDA /* PeeringFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PeeringFrog.jpg; sourceTree = "<group>"; };
-		9596B8E51AE717BC0035BDDA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9596B8E61AE717BC0035BDDA /* PhotoSlideShow_SwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSlideShow_SwiftTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9596B8A91AE70FBC0035BDDA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9596B8BE1AE70FBC0035BDDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				9596B8AE1AE70FBC0035BDDA /* PhotoSlideShow-Swift */,
-				9596B8E41AE717BC0035BDDA /* PhotoSlideShow-SwiftTests */,
 				9596B8AD1AE70FBC0035BDDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				9596B8AC1AE70FBC0035BDDA /* PhotoSlideShow-Swift.app */,
-				9596B8C11AE70FBC0035BDDA /* PhotoSlideShow-SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,15 +95,6 @@
 			path = "Full Images";
 			sourceTree = "<group>";
 		};
-		9596B8E41AE717BC0035BDDA /* PhotoSlideShow-SwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				9596B8E51AE717BC0035BDDA /* Info.plist */,
-				9596B8E61AE717BC0035BDDA /* PhotoSlideShow_SwiftTests.swift */,
-			);
-			path = "PhotoSlideShow-SwiftTests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,39 +115,18 @@
 			productReference = 9596B8AC1AE70FBC0035BDDA /* PhotoSlideShow-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9596B8C01AE70FBC0035BDDA /* PhotoSlideShow-SwiftTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9596B8CE1AE70FBC0035BDDA /* Build configuration list for PBXNativeTarget "PhotoSlideShow-SwiftTests" */;
-			buildPhases = (
-				9596B8BD1AE70FBC0035BDDA /* Sources */,
-				9596B8BE1AE70FBC0035BDDA /* Frameworks */,
-				9596B8BF1AE70FBC0035BDDA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9596B8C31AE70FBC0035BDDA /* PBXTargetDependency */,
-			);
-			name = "PhotoSlideShow-SwiftTests";
-			productName = "PhotoSlideShow-SwiftTests";
-			productReference = 9596B8C11AE70FBC0035BDDA /* PhotoSlideShow-SwiftTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9596B8A41AE70FBB0035BDDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = VillyG;
 				TargetAttributes = {
 					9596B8AB1AE70FBC0035BDDA = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					9596B8C01AE70FBC0035BDDA = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 9596B8AB1AE70FBC0035BDDA;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -198,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				9596B8AB1AE70FBC0035BDDA /* PhotoSlideShow-Swift */,
-				9596B8C01AE70FBC0035BDDA /* PhotoSlideShow-SwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -217,14 +162,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9596B8BF1AE70FBC0035BDDA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9596B8E71AE717BC0035BDDA /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -239,23 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9596B8BD1AE70FBC0035BDDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9596B8E81AE717BC0035BDDA /* PhotoSlideShow_SwiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9596B8C31AE70FBC0035BDDA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9596B8AB1AE70FBC0035BDDA /* PhotoSlideShow-Swift */;
-			targetProxy = 9596B8C21AE70FBC0035BDDA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9596B8B51AE70FBC0035BDDA /* Main.storyboard */ = {
@@ -290,14 +211,17 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -335,8 +259,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,6 +281,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -366,7 +293,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PhotoSlideShow-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.villyg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -376,41 +305,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PhotoSlideShow-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.villyg.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9596B8CF1AE70FBC0035BDDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PhotoSlideShow-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSlideShow-Swift.app/PhotoSlideShow-Swift";
-			};
-			name = Debug;
-		};
-		9596B8D01AE70FBC0035BDDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PhotoSlideShow-SwiftTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSlideShow-Swift.app/PhotoSlideShow-Swift";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -433,14 +330,7 @@
 				9596B8CD1AE70FBC0035BDDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9596B8CE1AE70FBC0035BDDA /* Build configuration list for PBXNativeTarget "PhotoSlideShow-SwiftTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9596B8CF1AE70FBC0035BDDA /* Debug */,
-				9596B8D01AE70FBC0035BDDA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

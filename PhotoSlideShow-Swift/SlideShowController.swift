@@ -47,7 +47,7 @@ class SlideShowController: UIPageViewController, UIPageViewControllerDataSource 
         // Create the first screen
         if let startingViewController = self.getItemController(startIndex) {
             
-            setViewControllers([startingViewController], direction: .Forward, animated: false, completion: nil)
+            setViewControllers([startingViewController], direction: .forward, animated: false, completion: nil)
             
         }
         
@@ -62,11 +62,11 @@ class SlideShowController: UIPageViewController, UIPageViewControllerDataSource 
     
     
     
-    private func getItemController(itemIndex: Int) -> UIViewController? {
+    fileprivate func getItemController(_ itemIndex: Int) -> UIViewController? {
         
         if itemIndex < self.images.count {
             
-            let result:SlideController = self.storyboard!.instantiateViewControllerWithIdentifier("slideController") as! SlideController
+            let result:SlideController = self.storyboard!.instantiateViewController(withIdentifier: "slideController") as! SlideController
 
             result.itemIndex = itemIndex
 
@@ -80,8 +80,8 @@ class SlideShowController: UIPageViewController, UIPageViewControllerDataSource 
     
     
     
-    func pageViewController(pageViewController: UIPageViewController,
-        viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController,
+        viewControllerAfter viewController: UIViewController) -> UIViewController? {
             
             let itemController = viewController as! SlideController
             
@@ -95,8 +95,8 @@ class SlideShowController: UIPageViewController, UIPageViewControllerDataSource 
     
     
     
-    func pageViewController(pageViewController: UIPageViewController,
-        viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController,
+        viewControllerBefore viewController: UIViewController) -> UIViewController? {
             
             
             let itemController = viewController as! SlideController
