@@ -26,11 +26,11 @@ class SlideController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        println(__FUNCTION__)
+        print(#function)
         
-        var scrollView: ImageScrollView = ImageScrollView()
-        scrollView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
-        scrollView.backgroundColor = UIColor.blackColor()
+        let scrollView: ImageScrollView = ImageScrollView()
+        scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        scrollView.backgroundColor = UIColor.black
         self.view = scrollView
         scrollView.displayImage(image)
     }
