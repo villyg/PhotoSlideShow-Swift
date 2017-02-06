@@ -2,7 +2,7 @@
 
 The PhotoSlideShow-Swift project is a Swift port of the Apple's PhotoScroll app demoed during the 2012 WWDC event. It doesn't include the Tile logic but it has a fully functional slide-show functionality using UIPageViewController and UIScrollView.
 
-Updated in Swift 3
+**Updated in Swift 3**
 
 Just like the Apple's app it includes:
 - Swiping
